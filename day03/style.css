@@ -29,6 +29,9 @@ header .logo {
 header .menu-desktop {
     background-color: brown;
     width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 header .button {
@@ -39,6 +42,7 @@ header .button {
 header .menu-mobile {
     display: none;
 }
+
 
 ul li {
     list-style: none;
